@@ -1,0 +1,129 @@
+body {
+  background-image: url('https://i.pinimg.com/1200x/be/78/58/be785895721909ae10b51d43a1742cf7.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: #1a0b3d;
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+#text {
+  background-color: rgba(26, 11, 61, 0.8);
+  color: #e6d7a8;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(218, 165, 32, 0.5);
+  margin: 0.5rem;
+  max-width: 90vw;
+}
+
+#game {
+  width: 90vw;
+  max-width: 600px;
+  height: 60vh;
+  max-height: 450px;
+  background-color: rgba(10, 10, 35, 0.9);
+  color: #e6d7a8;
+  padding: 1rem;
+  border: 2px solid #d4af37;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(218, 165, 32, 0.7);
+  box-sizing: border-box;
+}
+
+#controls,
+#stats {
+  border: 2px solid #d4af37;
+  padding: 0.5rem;
+  color: #e6d7a8;
+  background-color: rgba(26, 11, 61, 0.7);
+  border-radius: 8px;
+  margin: 0.5rem 0;
+}
+
+#monsterStats {
+  display: none;
+  border: 2px solid #d4af37;
+  padding: 0.5rem;
+  color: #e6d7a8;
+  background-color: rgba(139, 0, 139, 0.8);
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(218, 165, 32, 0.5);
+}
+
+.stat {
+  padding-right: 0.75rem;
+  font-weight: bold;
+}
+
+button {
+  cursor: pointer;
+  color: #1a0b3d;
+  background-color: #d4af37;
+  background-image: linear-gradient(#e6d7a8, #d4af37);
+  border: 3px solid #d4af37;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  font-family: 'Cinzel', serif;
+  font-size: 1rem;
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  background-image: linear-gradient(#f0e68c, #daa520);
+  box-shadow: 0 0 10px rgba(218, 165, 32, 0.8);
+  transform: scale(1.05);
+}
+
+@media (max-width: 768px) {
+  #game {
+    width: 95vw;
+    height: 70vh;
+    max-height: 400px;
+    padding: 0.75rem;
+  }
+
+  #text {
+    padding: 0.75rem;
+    font-size: 0.9rem;
+  }
+
+  button {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  #game {
+    width: 98vw;
+    height: 80vh;
+    max-height: 350px;
+    padding: 0.5rem;
+  }
+
+  #text {
+    padding: 0.5rem;
+    font-size: 0.8rem;
+  }
+
+  button {
+    padding: 0.3rem 0.6rem;
+    font-size: 0.8rem;
+  }
+
+  #controls,
+  #stats,
+  #monsterStats {
+    padding: 0.4rem;
+  }
+
+  .stat {
+    padding-right: 0.5rem;
+  }
+}
