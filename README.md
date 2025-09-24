@@ -7,7 +7,7 @@ Your mission: **Defeat the dragon** that’s preventing the townspeople from lea
 
 ![Sneak Peek](image/screenshot.png)
 
-🔗 **Live Demo:** \[Your GitHub Pages Link Here]
+🔗 **Live Demo:** \[[Your GitHub Pages Link Here](https://roleplayinggame1.netlify.app/)]
 
 ---
 
@@ -62,7 +62,7 @@ Your mission: **Defeat the dragon** that’s preventing the townspeople from lea
 
 ## 🕹️ Play Now
 
-🔗 **Live Demo:** \[Your GitHub Pages Link Here]
+🔗 **Live Demo:** \[[Your GitHub Pages Link Here](https://roleplayinggame1.netlify.app/)]
 📂 **Source Code:** This repo 
 
 ---
