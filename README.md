@@ -63,11 +63,12 @@ Your mission: **Defeat the dragon** that’s preventing the townspeople from lea
 ## 🕹️ Play Now
 
 🔗 **Live Demo:** \[Your GitHub Pages Link Here]
-🔗 **github Demo:** \[https://github.com/kal1kidan/RolePlayingGame]
+🔗 **github Demo:** \[(https://github.com/kal1kidan/RolePlayingGame)]
 📂 **Source Code:** This repo 👆
 
 ---
 ## 👨‍💻 Author
 Made with ❤️ as part of my **#100DaysOfCode challenge**.
+
 
 
